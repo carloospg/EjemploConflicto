@@ -1,9 +1,9 @@
 fun main() {
     println("Voy a calcular el area y la circunferencia de un circulo")
-    println("Dame el valor del radio del circulo")
+    println("Dame el valor de la base")
     var r: Int = readln().toInt()
-    var a = r * 3.14
-    var c = 2 * r * 3.14
-    println("El area del circulo es de: $a cm")
-    println("La circunferencia del circulo es de: $c cm")
+    println("dame el valor de el lado ")
+    var l = readln().toInt()
+    println("area = ${r*l}")
+    println("el perimetro es ${2*l+2*r}")
 }
